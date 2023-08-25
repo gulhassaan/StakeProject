@@ -1,0 +1,205 @@
+*{
+    font-family: 'Plus Jakarta Sans' !important;
+  }
+.dim {
+    padding-top: 40px;
+    background-color: #F6F7F9;
+}
+.reward-bd {
+    margin-left: 25%;
+    background-color: #F6F7F9;
+}
+.reward-bd h2{
+    font-size: 30px;
+    color: #1A202c;
+}
+.reward-card {
+    width: 95%;
+    padding: 20px ;
+    background-color: white;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Add this line to vertically center the content */
+}
+.vertical-line {
+    width: 2px;
+    background-color: #e9e9e9;
+    height: 100px; /* Adjust the height as needed */
+    margin: 0 10px; /* Add some margin for spacing */
+}
+.left-reward{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right-reward{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+#reward-star{
+    color: #41CE8E;
+    font-size: 80px;
+}
+.AED{
+    font-size: 36px;
+    color: #1A202c;
+    font-weight: bold;
+}
+.reward-earned{
+font-size: 18px;
+color: #5E6473;
+}
+.view-balance{
+font-size: 14px;
+color: #1A202c;
+}
+.cashback, .referral,.promotion{
+   font-size: 18px;
+   color: #5E6473;
+   margin-bottom: 10px;
+}
+.AED-s{
+    font-size: 20px;
+    color: #1A202c;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.stake-intro{
+padding-top: 40px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.intro-card{
+    width: 45%;
+    border: 1px solid #e9e9e9;
+    padding: 20px;
+    height: 30vh;
+    border-radius: 10px;
+    background-color: white;
+}
+.intro-card:hover{
+    border: 1px solid #0dbb48;
+    cursor: pointer;
+}
+.refer-card{
+    width: 45%;
+    border: 1px solid #e9e9e9;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: linear-gradient(#cdfadc, white,white);
+    margin-right: 60px;
+}
+.refer-card:hover{
+    border: 1px solid #0dbb48;
+    cursor: pointer;
+} 
+.intro-f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro-f h2{
+    font-size: 20px;
+    color: #1A202c;
+}
+#stake-intro-img{
+    width: 20px;
+}
+.intro-s{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.p-s{
+font-size: 20px;
+color: #1A202c;
+font-weight: bold;
+}
+.p-ss{
+    font-size: 14px;
+}
+.intro-t{
+ margin: 10px;
+}
+.intro-e{
+font-size: 14px;
+color: #1A202c;
+text-align: center;
+margin-top: 10px;
+}
+
+
+
+.refer-f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.refer-f h2{
+    font-size: 20px;
+    color: #1A202c;
+}
+#gift{
+    color:#41CE8E;
+    font-size: 30px;
+}
+#icons-reward{
+    color: #41CE8E;
+    font-size: 22px;
+}
+.refer-para{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #1A202c;
+}
+.under-line{
+    border: 1px solid #ececec;
+    margin: 10px 0px;
+}
+#tick{
+    color:#0dbb48;
+    font-size: 30px;
+}
+.signup-gift{
+    margin-top: 40px;
+}
+.signup-giftt{
+margin-top: 10px;
+}
+.share{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.share-your-link{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.copy-link{
+    border-radius: 10px;
+    width: 65%;
+}
+.copy-link-btn{
+    background-color: rgb(18,28,48);
+    color: white;
+    border-radius: 7px;
+    margin-left: 5px;
+    padding: 7px 20px;
+    font-size: 16px;
+}

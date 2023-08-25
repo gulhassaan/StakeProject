@@ -1,0 +1,273 @@
+*{
+  font-family: 'Plus Jakarta Sans' !important;
+}
+.dim{
+    margin-top: 0px;
+    background-color: #F6F7F9;
+  }.portfolio-bd{
+      margin-left: 25%;
+  }
+  .portfolio-bd h2{
+      font-size: 30px;
+      padding-top: 40px;
+      color: #1A202c;
+      }
+
+      .portfolio-bd h3{
+        font-size: 20px;
+        padding-top: 40px;
+        color: #1A202c;
+        }
+  
+      .big-card {
+        width: 95%;
+        padding: 20px ;
+        background-color: white;
+        border: 1px solid #e9e9e9;
+        border-radius: 10px;
+        margin-top: 30px;
+      }
+      
+      .portfolio-value {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        padding-top: 20px;
+      }
+      .portfolio-value p{
+       font-size: 16px;
+       color: #1A202c; 
+      }
+      
+      .profile-popup {
+        position: absolute;
+        top: 30px;
+        right: -200px;
+        width: 360px;
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+         border-radius: 20px;
+      }
+      .month-popup {
+        cursor: pointer;
+        width: 360px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        top: 30px;
+      }
+      
+      .profile-popup h2 {
+        text-align: center;
+        font-size: 16px;
+        margin: 0px 0px 8px;
+        color: #1A202c;
+      }
+      
+      .profile-popup p {
+        text-align: center;
+        font-size: 12px;
+        color: #1A202c;
+        margin: 0px 0px 24px;
+      }
+      
+      .popup-close-button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background: none;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      .portfolio-heading {
+        padding: 20px;
+        font-size: 30px;
+      }
+      
+      .centered-content {
+        padding-top: 200px;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+        color: #1A202c;
+      }
+      
+      .centered-content p {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      
+      .portfolio-navlink-button {
+        display: inline-block;
+        padding: 13px 60px;
+        background-color: rgb(18,28,48);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+        margin-bottom: 100px;
+      }
+      
+      .portfolio-navlink-button:hover {
+        background-color: #A0A4AC;
+      }
+
+
+      .financial-card-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      
+      .financial-card {
+        width: calc(33.33% - 20px);
+        margin: 10px;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      
+      
+      .financial-card-content {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      
+      /* Add media queries for responsiveness */
+      @media screen and (max-width: 768px) {
+        .financial-card {
+          width: calc(33% - 20px);
+        }
+       
+      }
+      
+      @media screen and (max-width: 480px) {
+        .financial-card {
+          width: 100%;
+        }
+      }
+      
+
+
+
+ /*Quick insight and investment card content */
+
+
+ 
+ .quick-card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .quick-card {
+    width: calc(20% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  
+  .quick-card-content {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .investment-card {
+    width: calc(40% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  .investment-card-content {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+  }
+  .investment-card-content p{
+    color: #5E6473;
+    font-size: 14px;
+    text-align: center;
+   
+  }
+  .investment-list i.bx.bxs-circle {
+    
+    font-size: 10px;
+  }
+  .only i.bx.bxs-circle {
+    color: #4bcf93;
+    font-size: 10px;
+  }
+  .investment-progressbar{
+    height: 20%;
+  }
+  
+  .investment-limit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* Add media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .quick-card {
+      width: calc(20% - 20px);
+    }
+   
+  }
+  
+  @media screen and (max-width: 480px) {
+    .quick-card {
+      width: 100%;
+    }
+  }
+  .quick-invest{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 42%;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #1A202c;
+  
+  }
+  .add-quick{
+     margin-left: 5px; 
+     font-size: 20px;
+  }
+  .add-invest{
+    margin-left: 40px;
+  }
+  #logos{
+    color: #4bcf93;
+    font-size: 24px;
+  }
+  .font-p
+  {
+    font-size: 14px;
+    color: #5E6473;
+  }
+  .font-AED{
+    font-size: 20px;
+    color:#1A202c;
+    font-weight: bold;
+  }
+  .font-z{
+    color: #1A202c;
+  }

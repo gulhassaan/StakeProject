@@ -1,0 +1,50 @@
+*{
+  font-family: 'Plus Jakarta Sans' !important;
+}
+.dim {
+    padding-top: 40px;
+    background-color: #F6F7F9;
+  }
+  .setting-bd {
+    margin-left: 25%;
+    background-color: #F6F7F9;
+  }
+.setting-bd h2{
+    font-size: 30px;
+    color: #1A202c;
+    margin: 40px 0px;
+  }
+  .setting-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .setting-card-one,.setting-card-two,.setting-card-three{
+    border: 1px solid rgb(224, 222, 222);
+    width: calc(33.33% - 20px);
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 30px;
+  }
+  .setting-card-one:hover,.setting-card-two:hover,.setting-card-three:hover{
+  border: 1px solid #4bcf93;
+  cursor: pointer;  
+}
+.rating{
+    color: #4bcf93;
+    font-size: 30px;
+}
+  .st-intro{
+   font-size: 16px;
+   color: #1A202c;
+   font-weight: bold;
+  }
+  .intro-des{
+font-size: 14px;
+color: #5E6473;
+  }
+  #setting-icons{
+    font-size: 30px;
+    color: #4bcf93;
+  }

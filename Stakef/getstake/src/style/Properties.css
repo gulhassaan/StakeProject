@@ -1,0 +1,218 @@
+*{
+  font-family: 'Plus Jakarta Sans' !important;
+}
+/* Using a locally hosted font file */
+@font-face {
+  font-family: "Plus Jakarta Sans" !important;
+  src: url("I:/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+}
+
+.P-properties {
+    text-align: center;
+    padding: 20px;
+    
+  }
+  .properties-heading{
+    font-size: 50px;
+  }
+  /*Section for heading and description*/
+  .P-properties-section{
+    color: white;
+    background-color: #121c30;
+    padding: 60px;
+    position: relative;
+  }
+  /* Container for filter buttons */
+ .filter-force{
+  display: flex;
+  justify-content: center;
+ }
+.P-filter-container {
+    position: absolute;
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    border-radius: 35px;
+    height: 60px;
+    top: 52%;
+    background-color: white;
+    padding: 0px 24px;
+
+  } 
+  .P-filter-container button {
+    margin: 0  0 0 4px;
+    padding: 16px 48px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 35px;
+    color: black; 
+    transition: background-color 0.1s, color 0.3s;
+  }
+  
+  .P-filter-container button:hover {
+    background-color: rgb(18,28,48);
+    color: white;
+    margin: 4px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .P-filter-container button:active {
+    background-color: #63b377;
+    color: white;
+  }
+  
+
+  
+ 
+  
+  /* Container for cards */
+  .P-card-container {
+    margin-top: auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Individual card */
+  .P-card {
+    width: calc(33.33% - 30px); /* Three cards per row */
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    border-radius: 10px;
+  }
+  
+  /* Card header */
+  .card-header {
+    
+    background-color: #121c30;
+    color: #f1f1f1;
+    border-radius: 10px 10px 0px 0px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .tag {
+    font-size: 12px;
+    color: white;
+    padding-top: 3px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Card carousel */
+  .card-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    /* overflow: visible; */
+  }
+  
+  .card-carousel img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  /* Card content */
+  .card-content {
+    padding: 20px;
+  }
+  
+  .property-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .property-location,
+  .property-status,
+  .property-price {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+  }
+  
+  .progress {
+    height: 100%;
+  }
+  
+  .property-metrics {
+    font-size: 12px;
+    color: #777;
+  }
+  
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .P-properties-section{
+      padding: 50px 10px;
+      position: relative;
+        }
+        .P-properties-section br{
+          display: none;
+        }
+    .properties-heading{
+      font-size: 36px;
+    }
+    /*Section for heading and description*/
+    .P-properties-section p{
+      margin-top: 10px;
+      font-size: 14px;
+      
+    }
+    .P-filter-container{
+      top: 50%;
+      width: 80%;
+    }
+    .P-filter-container button{
+padding: 20px 10px;
+    }
+    .P-card-container{
+   flex-direction: column;
+   padding: 80px;
+    }
+    .P-card {
+      width: calc(70.33% - 30px); /* Three cards per row */
+      width: 100%;
+      
+    }
+    
+  }
+
+
+  @media (min-width: 768px) and (max-width: 1200px){
+    .P-filter-container{
+      top: 57%;
+    }
+    .P-filter-container{
+      
+          }
+  }
+
+
+
+
+
+
+
+
+
+
+  

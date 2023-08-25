@@ -1,0 +1,164 @@
+*{
+  font-family: 'Plus Jakarta Sans' !important;
+}
+.dim {
+  padding-top: 40px;
+  background-color: #F6F7F9;
+}
+.profileproperty-bd {
+  margin-left: 25%;
+  background-color: #F6F7F9;
+}
+.profileproperty-bd h2{
+  font-size: 30px;
+  color: #1A202c;
+  margin: 40px 0px;
+}
+.filter-pro-properties{
+  border: 2px solid rgb(236, 236, 236);
+  padding: 12px 0px;
+  border-radius: 40px;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  font-weight: bold;
+}
+.pro-button-active{
+  background-color: #4bcf93;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  color: white;
+  margin: 0px 10px;
+}
+.pro-button{
+  margin: 0px 20px;
+}
+.pro-button:hover{
+  background-color: rgb(18,28,48);
+  color: white;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.pro-button-active:hover{
+  background-color: rgb(18,28,48);
+  color: white;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.pro-properties-card{
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  gap: 1%;
+}
+.pro-card{
+  width: calc(33.33%);
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid rgb(238, 238, 238);
+  transition: transform 0.2s ease;
+}
+.pro-card:hover{
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+/* .pro-card img{
+  border-radius: 20px 20px 0px 0px;
+} */
+.pic-img{
+  border-radius: 20px 20px 0px 0px;
+}
+.cities{
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+.dubai-flag{
+  margin-top: 2px;
+  width: 13px;
+}
+.dubai{
+  font-size: 12px;
+  border: 1px solid rgb(190, 187, 187);
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 10px;
+}
+.Town{
+  font-size: 12px;
+  border: 1px solid rgb(190, 187, 187);
+  border-radius: 5px;
+  padding: 3px;
+}
+#town-icon{
+  font-size: 15px;
+  color: #4bcf93;
+}
+.bed-town{
+  margin-top: -20px;
+}
+.bed-town h2{
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.pro-funded{
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #4bcf93;
+}
+.percent{
+  margin-left: 10px;
+  font-size: 12px;
+}
+.pro-progressbar{
+  margin: 10px;
+}
+.pro-last-session{
+  background-color:  #f1f1f1;
+  margin: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.pro-last-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pro-per{
+  font-weight: bold;
+  font-size: 14px;
+  color: #1A202c;
+  margin: 4px;
+}
+.pro-annual{
+  font-size: 14px;
+  color: #5E6473;
+  margin: 4px;
+}
+.pro-head{
+  text-align: center;
+  background-color: rgb(18,28,48);
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px;
+}
+#list-icon{
+  color: #4bcf93;
+  font-size: 20px;
+}
+#special-img{
+  height: 130px;
+  width: 300px;
+}

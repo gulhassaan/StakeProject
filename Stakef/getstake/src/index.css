@@ -1,0 +1,13 @@
+*{
+  font-family: 'Plus Jakarta Sans';
+}
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Plus Jakarta Sans';
+}

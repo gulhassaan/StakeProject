@@ -1,0 +1,190 @@
+*{
+  font-family: 'Plus Jakarta Sans' !important;
+}
+.dim{
+  margin-top: 0px;
+  background-color: #F6F7F9;
+
+}.wallet-bd{
+    margin-left: 25%;
+}
+.wallet-bd h2{
+    font-size: 30px;
+    padding-top: 40px;
+    color: #1A202c;
+    }
+.wallet-bd h3{
+    font-size: 20px;
+    color: #5C6069;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.wallet-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 5%;
+    margin-top: 10px;
+  }
+  
+  .wallet-card {
+    border: 1px solid #ccc;
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .wallet-card-head-set {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding-bottom: 22px;
+    
+  }
+  .wallet-card-title-set {
+    font-size: 20px;
+    color: #5E6473;
+   }
+   .wallet-card-title-sett {
+    font-size: 36px;
+     color: #1A202c;
+     font-weight: bold;
+    }
+  
+
+  .bank-card{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 47%;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #1A202c;
+    margin-left: -10px;
+  }
+  .add-card{
+     margin-left: 17px; 
+  }
+  .deposit-card-head-set {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding-bottom: 22px;
+    
+  }
+  
+  .deposit-card-title-set {
+   font-size: 14px;
+   color: #5E6473;
+  }
+  .deposit-card-title-sett {
+    color: #1A202c;
+   }
+  .card-button-set {
+    background-color: rgb(144, 146, 150);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    padding: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .card-button-sett {
+   color:  rgb(144, 146, 150);
+   font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    padding: 14px;
+    font: 16px;
+    cursor: pointer;
+  }
+  
+  .card-content-set {
+    margin-top: 10px;
+  }
+  
+  .card-icon-set {
+    font-size: 24px;
+  }
+  
+  #big-star{
+   font-size: 60px;
+   color: #41CE8E; 
+   margin-right: 30px;
+  }
+
+
+
+
+  .transaction-container {
+    padding: 20px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .transaction-table {
+    width: 100%;
+    margin-top: 0px;
+
+  }
+  
+  .transaction-table th{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    color: #1A202c;
+    font-size: 16px;
+  }
+  .transaction-table td {
+    padding: 13px;
+    text-align: left;
+    
+  }
+  
+  .no-transaction-message {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+  
+  .deposit-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 5%;
+    margin-top: 0px;
+  
+  }
+  .deposit-card {
+    border: 1px solid #ccc;
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+.deposit-card-head-sett {
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  padding-bottom: 22px;
+  justify-content: center;
+  
+}
+.input-bank{
+  text-align: center;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 8px 0px 0px;
+}

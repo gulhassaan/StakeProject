@@ -1,0 +1,164 @@
+* {
+    font-family: 'Plus Jakarta Sans' !important;
+}
+.exitwindow{
+    text-align: center;
+    margin: 5rem ;
+}
+.svg-con{
+    justify-content: center;
+}
+.exitwindow .svg-con{
+    display: flex;
+    justify-content: center;
+    /* background-color: #EDFFF0; */
+    border-radius: 20px;
+    color: #209476;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+}
+.exitwindow h1{
+    font-size: 36px;
+    color: #1A202c;
+}
+.flex{
+   color:  #41CE8E;
+}
+.trading{
+  font-size: 24px;
+  color: #5E6473;
+  margin: 10px;
+}
+.exit-btn{
+    margin: 8px;
+    padding: 28px 0px;
+}
+.buy-shares{
+padding: 16px 24px;
+border-radius: 10px;
+font-size: 14px;
+background-color: white;
+border: 1px solid rgb(197, 193, 193);
+}
+.sell-stakes{
+    padding: 16px 24px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+background-color: white;
+border: 1px solid rgb(197, 193, 193);
+}
+.buy-shares:hover,.sell-stakes:hover{
+background-color: rgb(18,28,48);
+color: white;
+cursor: pointer;
+}
+.triple-manage{
+    background-color: rgb(18,28,48);
+    color: white;
+  display: flex;
+  flex-direction: row;
+    padding: 7rem;
+    justify-content: center;
+    align-items: center;
+}
+.triple-manage svg{
+    background-color: #FFD147;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.triple-manage hr{
+    height: 7rem ;
+border: 1px solid rgb(138, 136, 136);
+}
+.yellow-div{
+    margin: 0px 30px;
+    display: flex;
+    gap: 10px;
+  align-items: center;
+}
+.yellow-div p{
+    font-size: 16px;
+   
+}
+.biannual{
+    background-color: #f6f7f9;
+}
+.biannual h2{
+    font-size: 36px;
+    text-align: center;
+    padding: 40px 0px;
+}
+.calandar{
+    display: grid ;
+    grid-template-columns: 8.3% 8.3% 8.3% 8.3% 7.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%  8.3% ;
+    margin: 120px 5rem;
+    padding-bottom:100px;
+    align-items:center;
+}
+.jan{
+background-color: white;
+padding: 8px 30px;
+border-radius: 20px 0px 0px 20px;
+
+}
+.feb,.mar,.apr,.may,.jun,.jul,.aug,.sep,.oct,.nov{
+    background-color: white;
+    padding: 8px ;
+
+}
+.dec{
+background-color: white;
+padding: 8px;
+border-radius: 0px 20px 20px 0px;
+}
+.jan,.feb,.mar,.apr,.may,.jun,.jul,.aug,.sep,.oct,.nov,.dec p{
+  font-size: 16px;
+  color: #5E6473;
+  font-weight: bold;
+}
+.may{
+    background-image: linear-gradient(white, #FFD147);
+    height: 100px;
+    margin-top: -55px;
+}
+.hor-svg svg{
+    padding: 3px;
+    margin-right: 30px;
+}
+.hor-svg{
+justify-content: space-around;
+margin: 10px 15px;
+/* margin: 2px 10px 22px 25px; */
+background-color: #FFD147;
+border: 1px solid black;
+border: none;
+border-radius: 10px 12px 15px 15px;
+}
+.extra-text{
+    position: absolute;
+    margin-left: -180px;
+}
+
+
+@media (min-width:200px) and (max-width:1000px)
+{
+    .triple-manage{
+        display: flex;
+        flex-direction: column;
+    }   
+    .triple-manage hr{
+        height:0rem ;
+        width: 15rem;
+        margin: 30px;
+    }
+    .calandar{
+        display:flex;
+        flex-direction: column;
+        margin: 40px 5rem;
+    }
+}

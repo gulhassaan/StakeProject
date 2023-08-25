@@ -1,0 +1,684 @@
+*{
+  font-family: 'Plus Jakarta Sans' !important;
+}
+.goldenvisa-section{
+        text-align: center;
+        padding: 20px;
+        color: rgb(0, 0, 0);
+        padding: 60px;
+}
+.goldenvisa-heading{
+    color: #41ce8e;
+    font-size: 24px;
+}
+.goldenvisa-des{
+    font-size: 45px;
+}
+
+/* box items*/
+
+.visa-box {
+    display:flow-root;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .visaStyle {
+   
+    border-radius: 10px;
+    padding: 25px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin-left: 10%;
+}
+.visa-para{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .background-image{
+    background-image: url("../images/earth.png");
+  }
+.callback{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}  
+.callback button{
+    color: white;
+    background-color:  rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 15%;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.beach{
+    width: 95%;
+    display: flex;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.what-goldenvisa-heading{
+    font-size: 50px;
+}
+
+
+.section{
+    padding-top: 60px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.img-section {
+    
+    padding-top: 0px;
+  }
+ 
+  .goldenparent {
+    padding-right: 10px;
+  }
+  /*vertical box for right grid data*/
+
+  .vertical-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    padding-bottom: 100px;
+    
+  }
+  
+  .box {
+    width: 30rem;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #f0eaea;
+    border-radius: 10px;
+  }
+  .box h2{
+  font-size: 20px;
+  margin: 10px;
+  }
+  .box p{
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+
+
+  /**Div for smartest way card section */
+  
+  .body {
+      margin: 0px;
+      padding-top: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  
+  .smartest-section {
+      background-color: rgb(240, 240, 240);
+      padding: 20px;
+      border-radius: 10px;
+      width: 100%;
+      
+  }
+  
+  .heading {
+      text-align: center;
+      font-size: 55px;
+      margin-bottom: 10px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+  }
+  
+  .paragraph {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+  }
+  
+  .cards-container {
+      display: flex;
+      margin: 10px;
+      margin-bottom: 30px;
+      flex-direction: row;
+      
+  }
+  .card {
+      padding: 20px;
+      border-radius: 10px;
+      margin-right: 35px; 
+      display: flex; 
+      flex-direction: column; 
+      background-color: #ffffff;
+  }
+  .card h1{
+    font-size: 20px;
+    text-align: left;
+  }
+  .card p{
+    font-size: 16px;
+    text-align: left;
+    margin: 20px 0px;
+  }
+  
+  .collaboration { 
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+  
+  .smart-logo {
+      text-align: center; /*DIFC LOGO*/
+      padding-bottom: 100px;
+  }
+  .head-logo{   /*logo of each card*/
+    width: 70px;
+  }
+
+  
+ 
+
+ /*This div is for left and right grid stake visa*/
+
+
+
+.stake-section{
+    padding-top: 100px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    background-color: #EDFFF0;
+}
+
+.firstgrid {
+    padding-top: 90px;
+    margin-left: 70px;
+    
+  }
+
+  .firstgrid-data{
+    padding-top: 100px;
+  }
+  .img-stake {
+    padding-top: 0px;
+    width: 70%;
+    height:60%;
+  }
+  .f-heading{
+    margin-left: 50px;
+          display:flex;
+          justify-content: center;
+          font-size: 54px;
+  }
+  .f-para{
+    padding-top: 20px;
+font-size: 20px;
+padding-bottom: 40px;
+padding-left: 50px;
+  }
+  .callback-btn{
+    background-color: #161e2e;
+    border: none;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  .callback-btn-2{
+    background-color: #161e2e;
+    border: none;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+.callback-btn-2:hover{
+  background-color:  #3c3e42;
+}
+
+  .callback-btn:hover{
+    background-color: #3c3e42;
+  }
+  .Membership {
+    margin: 0;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Review{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
+}
+
+.elite-section {
+    background-color:#161e2e;
+    padding-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+.review-section{
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.elite-heading {
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+.elite-paragraph {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: white;
+}
+.review-heading{
+  text-align: center;
+  font-size: 65px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.review-paragraph{
+  display: flex;
+  justify-content: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 20px;
+    flex-direction: column;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+.rpara{
+margin-left: 150px;
+}
+.rstar{
+  color: orange;
+  margin-left: 150px;
+}
+.R-logo{
+  margin-left: 150px;
+}
+.review-user{
+font-size: 17px;
+color: #3c3e42;
+margin-left: 80px;
+}
+
+
+.elite-cards {
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 10px;
+    flex-direction: row;
+}
+.elite-card {
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px; 
+    display: flex; 
+    justify-content: space-around;
+    background-color: rgb(33,42,61);
+    flex-direction: column;
+}
+.elite-text{
+    color: #41ce8e;
+}
+
+.co-founder{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color:#F6F7F9;
+  flex-direction: column;
+}
+
+.co-statement{
+  padding:70px;
+  font-size: 20px;
+  color: rgb(85, 84, 84);
+}
+.questions{
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 50px;
+}
+.Q-heading h1{
+font-size: 48px;
+padding: 30px;
+}
+.Q-paragraph
+.Q-paragraph p{
+  font-size: 16px;
+  color: #5E6473;
+}
+.faq {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faqHeader {
+  font-size: 27px;
+  margin: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cards-container {
+    display: flex;
+    margin: 10px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    
+
+}
+.goldenvisa-heading{
+  font-size: 16px;
+  font-weight: bold;
+}
+.goldenvisa-des{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+.visa-box {
+  overflow-y: hidden;
+  padding: 20px;
+}
+.visaStyle {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  border-radius: 10px;
+  padding: 0px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  margin-left: 0%;
+  overflow-y: hidden;
+  padding: 30px;
+}
+
+.visa-para{
+  font-size: 15px;
+  font-weight: bold;
+}
+.visaStyle p{
+  display: grid;
+  font-size: 10px;
+}
+.callback-btn{
+  width: 90%;
+}
+.what-goldenvisa-heading{
+  font-size: 24px;
+  font-weight: bold;
+}
+.goldenvisa-section{
+  padding: 10px;
+}
+.goldenvisa-section p{
+  margin: 20px;
+  font-size: 14px;
+}
+.section{
+  /* padding-top: 60px;
+  margin-left: 30px; */
+  grid-template-columns: 100%;
+  /* gap: 20px;
+  padding: 20px; */
+}
+
+.img-section {
+  order: 2; 
+  padding-top: 0px;
+}
+
+.goldenparent {
+  order: 1;
+  padding-right: 10px;
+}
+/*vertical box for right grid data*/
+
+.vertical-box {
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+.box {
+  margin-right: 0px;
+  width: 90%;
+  padding: 16px;
+  margin: 10px;
+}
+.box h2{
+font-size: 16px;
+}
+.box p{
+  font-size: 14px;
+}
+  
+
+
+
+
+
+
+
+
+.body {
+  margin: 0px;
+  padding-top: 20px;
+  display:flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  
+  height: 240vh;
+}
+
+.smartest-section {
+  overflow-y: hidden; 
+}
+
+.card {
+  padding: 20px;
+  border-radius: 7px;
+  margin-right: 0px; 
+}
+.card h1{
+  margin-top: 10px;
+
+font-size: 16px;
+}
+.card p{
+font-size: 14px;
+}
+.collaboration { 
+  font-size: 14px;
+  color: #5E6473;
+}
+
+
+
+.stake-section{
+  padding-top: 0px;
+  margin-left: 0px;
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 30px;
+}
+.firstgrid {
+  padding-top: 20px;
+  margin-left: 0px;
+  text-align: center;
+}
+.img-stake {
+  overflow-y: hidden;
+  width: 80%;
+  margin-left: 6rem;
+  
+}
+
+.firstgrid-data{
+  padding-top: 10px;
+}
+
+.f-heading{
+  margin-left: 0px;
+  font-size: 24px;
+}
+.f-para{
+font-size: 14px;
+padding-bottom: 20px;
+}
+.callback-btn-2{
+  width: 85%;
+}
+
+
+.elite-heading {
+  font-size: 24px;
+}
+.elite-paragraph {
+font-size: 14px;
+}
+
+.elite-cards {
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.elite-card {
+  
+  margin: 10px; 
+}
+.elite-card h1{
+  font-size: 16px;
+}
+.elite-card p{
+  font-size: 12px;
+  margin: 10px 0px;
+}
+.head-logo{   /*logo of each card*/
+  width: 50px;
+  margin: 10px 0px;
+}
+.review-heading{
+  font-size: 24px;
+}
+.review-paragraph{
+  display: flex;
+  justify-content: center ;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+}
+.rpara{
+margin-left: 0px;
+}
+.rstar{
+  margin-left: 0px;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+.R-logo{
+  text-align: center;
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 30% 30%;
+
+}
+.R-logo h1{
+  font-size: 23px;
+}
+br{
+  display: none;
+}
+.review-user{
+font-size: 12px;
+margin-left: 0px;
+}
+
+.co-logo img{
+  margin: 10px;
+  padding: 10px;
+  width: 6rem;
+}
+.co-des h1{
+  font-size: 14px;
+}
+.co-des p{
+  font-size: 12px;
+}
+.co-statement{
+  padding: 60px;
+}
+.co-statement p{
+  font-size: 14px;
+}
+.Q-heading h1{
+  font-size: 24px;
+  }
+  .Q-paragraph p{
+    padding: 20px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) {
+ 
+}

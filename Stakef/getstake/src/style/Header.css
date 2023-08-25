@@ -1,0 +1,292 @@
+*{
+  font-family: 'Plus Jakarta Sans' !important;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: #0e0d0d;
+    border-bottom: 1px solid #cac0c0;
+    padding: 20px;
+  }
+  
+  .Header-logo {
+    flex: 0.4;
+    width: 5rem;
+    margin-left: 25px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color:#1A202C;
+    float: left;
+  }
+  .menu-item {
+    cursor: pointer;
+  }
+  .hov:hover{
+    color: #41ce8e;
+  }
+  .hov span.menu-item {
+    display: inline-block;
+  }
+  
+  .hov.active span.menu-item {
+    border-bottom: 4px solid #41ce8e; /* Add underline to active NavLink */
+  }
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle::after {
+    content: '\25BE';
+    margin-left: 15px;
+  }
+  .option-svg{
+    display: flex;
+    gap: 10px;
+  }
+  .option-svg svg{
+    color: #41ce8e;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .center-space {
+    flex: 1;
+  }
+  
+  .login-btn {
+    display: flex;
+    gap: 10px;
+
+  }
+  
+  .header-login-button {
+    padding: 10px 20px;
+     border-radius: 7px;
+    
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .res-header-login-button {
+    padding: 10px 80px;
+     border-radius: 7px;
+    margin-top: 70%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #41ce8e;
+    background-color: rgb(18, 28, 48);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+  }
+  .res-header-login-button:hover{
+    background-color:rgb(18, 28, 48);
+    color: #f7f7f7;
+    border: none;
+  }
+  .header-login-button:hover{
+    background-color:rgb(18, 28, 48);
+    color: #f7f7f7;
+  }
+  .header-getstarted-button{
+    padding: 10px 20px;
+    color: #f7f7f7;
+    border-radius: 7px;
+    background-color:rgb(18, 28, 48);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
+  .header-getstarted-button:hover{
+    background-color: rgb(160, 164, 172);
+  }
+  .world{
+   width: 20px;
+   height: 20px;
+  }
+  /*Dropdown content*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu-item {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+.dropdown-content option:hover {
+  color: #41ce8e;
+  background-color: #e2e0e0;
+  border-radius: 7px;
+}
+.more-button{
+display: none;
+}
+
+@media (min-width:1300px) and (max-width:1600px){
+  .header {
+    display: grid;
+    grid-template-columns: 10% 60% 7% 20%;
+    
+  }
+}
+/* Media query for small screens */
+@media (min-width:200px) and (max-width: 1300px) {
+  .Header-logo {
+    flex: 1; /* Take up full width */
+    margin-bottom: 10px;
+  }
+.menu{
+  display: none;
+}
+  .menu::after {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: large;
+    justify-content: space-around;
+    margin-left: 0px;
+  }
+
+  .center-space {
+    display: none;
+  }
+
+  .login-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ 
+
+  .dropdown-toggle::after {
+    display: none; /* Hide dropdown toggle arrow */
+  }
+  .more-button {
+    display: block;
+    border: none;
+    background-color: white;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-right: 10px; /* Add some space between "More" and other buttons */
+  }
+  .more-button:hover{
+background-color: #dddada;
+  }
+
+  .dropdown-menu {
+    /* Adjust positioning and styles for the dropdown menu */
+    top: calc(100% + 10px);
+    right: 10px;
+    align-items: flex-end;
+  }
+ 
+  .dropdown-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(18, 28, 48) ; /* Changed background color to black */
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Changed alignment to flex-start */
+    padding: 20px;
+    text-align: left; /* Changed text alignment to left */
+  }
+
+  .dropdown-menu .menu-item {
+    color: white;
+    margin-bottom: 10px; /* Added space between menu items */
+    padding: 5px; /* Added padding to menu items */
+    border-bottom: 1px solid #ffffff; /* Added line after each menu item */
+  }
+
+  .dropdown-menu .menu-item:last-child {
+    margin-bottom: 0; /* Remove margin for the last menu item */
+  }
+  .res{
+    display: none;
+  }
+  .cross{
+    display: flex;
+    flex-direction: row;
+  }
+  .cross-sign{
+    float: right;
+    font-size: 30px;
+    color: white;
+  }
+  .cross-sign:hover{
+    background-color: white;
+    color: black;
+  }
+  .svg-menu{
+    width: 30%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 945px) {
+   .menu{
+    display: none;
+   }
+   .res{
+    display: none;
+   }
+   .cross{
+    gap: 20rem;
+    float: right;
+   }
+}
